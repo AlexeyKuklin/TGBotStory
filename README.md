@@ -1,1 +1,2 @@
-## Телеграмм бот @little_story_style_bot
+# Телеграм бот:  
+@little_story_style_bot  
