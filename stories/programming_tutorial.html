@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Богатыри: Инструкция по программированию</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Богатыри: Инструкция по программированию</h1>
+        </header>
+        <main>
+            <div class="story-content">
+                <h2>Создаем класс "Богатырь" на Python</h2>
+                
+                <p>Сегодня мы напишем программу, вдохновленную картиной Васнецова "Богатыри". Мы создадим класс "Богатырь" и реализуем его функциональность.</p>
+                
+                <h3>Шаг 1: Определение класса</h3>
+                <pre><code>
+class Bogatyr:
+    def __init__(self, name, weapon, horse_color):
+        self.name = name
+        self.weapon = weapon
+        self.horse_color = horse_color
+        self.strength = 100
+                </code></pre>
+                
+                <h3>Шаг 2: Добавление методов</h3>
+                <pre><code>
+    def defend_rus(self):
+        print(f"{self.name} защищает Русь, используя {self.weapon}!")
+    
+    def ride_horse(self):
+        print(f"{self.name} скачет на {self.horse_color} коне.")
+                </code></pre>
+                
+                <h3>Шаг 3: Создание экземпляров</h3>
+                <pre><code>
+dobrynya = Bogatyr("Добрыня Никитич", "меч", "белый")
+ilya = Bogatyr("Илья Муромец", "копье", "черный")
+alyosha = Bogatyr("Алёша Попович", "лук", "рыжий")
+                </code></pre>
+                
+                <h3>Шаг 4: Использование методов</h3>
+                <pre><code>
+dobrynya.defend_rus()
+ilya.ride_horse()
+alyosha.defend_rus()
+                </code></pre>
+                
+                <p>Этот код создает трех богатырей и позволяет им защищать Русь и скакать на конях. Попробуйте расширить класс, добавив новые атрибуты или методы, например, метод для описания подвигов богатыря.</p>
+            </div>
+            <a href="index.html" class="back-link">Назад на главную</a>
+        </main>
+    </div>
+</body>
+</html>

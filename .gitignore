@@ -1,0 +1,13 @@
+# Конфигурационные файлы
+config.py
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Файл с рейтингами
+ratings.json
+
+# Среды разработки
+.vscode/
+.idea/
